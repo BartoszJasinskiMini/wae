@@ -86,7 +86,7 @@ def population():
 
     pop = []
     popFit = []
-    for i in xrange(0, popSize):
+    for i in range(0, popSize):
         ind = randInd()
         fit = fitness(decode(ind))
 

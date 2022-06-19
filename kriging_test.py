@@ -1,9 +1,11 @@
 import numpy as np
 from pyDOE import lhs
+
+from EGO import EGO
 from kriging import kriging
 from true_function import true_function
 from ga import ga
-from exp_imp import EGO
+# from exp_imp import EGO
 
 k = 2
 n = 5*2

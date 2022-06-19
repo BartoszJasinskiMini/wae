@@ -31,8 +31,8 @@ class kriging():
 
         # build correlation matrix
         R = np.zeros((n, n))
-        for i in xrange(n):
-            for j in xrange(i+1, n):
+        for i in range(n):
+            for j in range(i+1, n):
                 R[i, j] = np.exp( -sum(Theta * sci.power(abs(X[i, :] - X[j, :]), 2)))
 
         R = R + R.T + np.eye(n) + np.eye(n)*np.finfo(np.float32).eps
@@ -57,7 +57,7 @@ class kriging():
         U = self.U
 
         r = np.zeros((n, 1))
-        for i in xrange(n):
+        for i in range(n):
             r[i] = np.exp( -sum(Theta * sci.power(abs(X[i, :] - x), 2)))
 
         y_hat = self.mu + np.dot(r.T, solve(U, solve(U.T, f-one*self.mu)))
