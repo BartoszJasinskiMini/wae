@@ -166,11 +166,11 @@ for batch_counter, problem in enumerate(suite):  # this loop may take hours or d
 
             # sampling plan
             X = lhs(k, samples=n)
-            y = np.zeros((n, 1))
+            y = np.zeros((propose_x0().size, 1))
 
             # find true values
-            for i in range(k):
-                y[i] = true_function(X[i], 1)
+            # for i in range(k):
+            #     y[i] = true_function(X[i], 1)
 
             # create kriging model
             kr = kriging(k, X, y)
