@@ -179,7 +179,7 @@ for batch_counter, problem in enumerate(suite):  # this loop may take hours or d
             kr.train()
 
             # plot prediction
-            kr.plot_2d()
+            # kr.plot_2d()
 
             E = EGO(kr)
             MinExpImp = 1e14
@@ -193,7 +193,7 @@ for batch_counter, problem in enumerate(suite):  # this loop may take hours or d
                 infill = infill + 1
 
                 kr.train()
-                output = Xnew
+                output = EI
                 # kr.plot_2d()
 
         elif fmin is scipy.optimize.fmin_slsqp:
