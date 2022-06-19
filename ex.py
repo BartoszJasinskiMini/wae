@@ -45,6 +45,12 @@ import os, webbrowser  # to show post-processed results in the browser
 import numpy as np  # for median, zeros, random, asarray
 import cocoex  # experimentation module
 import mocmaes
+from pyDOE import lhs
+
+from EGO import EGO
+from kriging import kriging
+from true_function import true_function
+
 try: import cocopp  # post-processing module
 except: pass
 
@@ -83,7 +89,8 @@ def random_search(f, lbounds, ubounds, evals):
 #fmin = scipy.optimize.fmin_slsqp
 # fmin = scipy.optimize.fmin_cobyla
 #fmin = cocoex.solvers.random_search
-fmin = mocmaes.MOCMAES
+#fmin = mocmaes.MOCMAES
+fmin = EGO
 # fmin = cma.fmin2
 
 suite_name = "bbob-biobj"  # see cocoex.known_suite_names
@@ -152,6 +159,43 @@ for batch_counter, problem in enumerate(suite):  # this loop may take hours or d
             stoppings[problem.index].append(output[4])
         elif fmin is mocmaes.MOCMAES:
             output = mocmaes.MOCMAES.run(problem, propose_x0())
+        elif fmin is EGO:
+
+            k = 2
+            n = 5 * 2
+
+            # sampling plan
+            X = lhs(k, samples=n)
+            y = np.zeros((n, 1))
+
+            # find true values
+            for i in range(k):
+                y[i] = true_function(X[i], 1)
+
+            # create kriging model
+            kr = kriging(k, X, y)
+
+            # train model
+            kr.train()
+
+            # plot prediction
+            kr.plot_2d()
+
+            E = EGO(kr)
+            MinExpImp = 1e14
+            infill = 0
+
+            while abs(MinExpImp) > 1e-3 and infill < 3 * n:
+                Xnew, EI = E.next_infill()
+                Ynew = true_function(Xnew, 1)
+                kr.X = np.vstack((kr.X, Xnew))
+                kr.y = np.vstack((kr.y, Ynew))
+                infill = infill + 1
+
+                kr.train()
+                output = Xnew
+                # kr.plot_2d()
+
         elif fmin is scipy.optimize.fmin_slsqp:
             output = fmin(problem, propose_x0(), iter=int(evalsleft() / problem.dimension + 1),  # very approximate way to respect budget
                           full_output=True, iprint = -1)

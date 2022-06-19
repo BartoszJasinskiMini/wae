@@ -39,4 +39,5 @@ while abs(MinExpImp) > 1e-3 and infill < 3*n:
     infill = infill + 1
 
     kr.train()
-    kr.plot_2d()
+    # kr.plot_2d()
+
