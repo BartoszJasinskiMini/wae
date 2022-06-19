@@ -40,7 +40,7 @@ def ga(_fitfunc, _nvars, _LB, _UB):
         newFit = []
         
         # save best individual in population
-        bestFit = min(popFit)
+        bestFit = min(popFit).all()
         newPop.append(pop[popFit.index(bestFit)])
         newFit.append(bestFit)
         

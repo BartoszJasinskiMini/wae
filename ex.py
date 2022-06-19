@@ -165,12 +165,14 @@ for batch_counter, problem in enumerate(suite):  # this loop may take hours or d
             n = 5 * 2
 
             # sampling plan
-            X = lhs(k, samples=n)
-            y = np.zeros((propose_x0().size, 1))
+            # X = lhs(k, samples=n)
+            # y = np.zeros((n, 1))
+            X = lhs(k, samples=propose_x0().size)
+            y = np.zeros((propose_x0().size, 2))
 
             # find true values
-            # for i in range(k):
-            #     y[i] = true_function(X[i], 1)
+            for i in range(k):
+                y[i] = problem(X[i])
 
             # create kriging model
             kr = kriging(k, X, y)
@@ -187,7 +189,7 @@ for batch_counter, problem in enumerate(suite):  # this loop may take hours or d
 
             while abs(MinExpImp) > 1e-3 and infill < 3 * n:
                 Xnew, EI = E.next_infill()
-                Ynew = true_function(Xnew, 1)
+                Ynew = problem(Xnew)
                 kr.X = np.vstack((kr.X, Xnew))
                 kr.y = np.vstack((kr.y, Ynew))
                 infill = infill + 1
