@@ -1,0 +1,5 @@
+# code to read in these data:
+# import ast
+# with open('MOCMAES_of_mocmaes_10D_on_bbob-biobj_stopping_conditions.pydict', 'rt') as file_:
+#     stoppings = ast.literal_eval(file_.read())
+{}

@@ -87,7 +87,7 @@ fmin = mocmaes.MOCMAES
 # fmin = cma.fmin2
 
 suite_name = "bbob-biobj"  # see cocoex.known_suite_names
-budget_multiplier = 2  # times dimension, increase to 10, 100, ...
+budget_multiplier = 10  # times dimension, increase to 10, 100, ...
 suite_filter_options = (""  # without filtering, a suite has instance_indices 1-15
                         # "dimensions: 2,3,5,10,20 "  # skip dimension 40
                         # "instance_indices: 1-5 "  # relative to suite instances

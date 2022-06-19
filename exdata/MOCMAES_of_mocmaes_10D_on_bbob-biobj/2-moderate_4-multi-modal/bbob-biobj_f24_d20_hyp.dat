@@ -1,0 +1,92 @@
+%
+% index = 3645, name = bbob_f006_i02_d20__bbob_f015_i04_d20
+% instance = 1, reference value = 9.438003671805359e-01
+% function evaluation | indicator value | target hit
+1	7.210980071100308e-01	7.244359600749900e-01
+5101	7.210980071100308e-01	7.244359600749900e-01
+%
+% index = 3646, name = bbob_f006_i03_d20__bbob_f015_i05_d20
+% instance = 2, reference value = 9.870592326872010e-01
+% function evaluation | indicator value | target hit
+1	4.189083646655204e-01	4.265795188015927e-01
+3216	3.892771377192393e-01	3.981071705534972e-01
+5101	3.892771377192393e-01	3.981071705534972e-01
+%
+% index = 3647, name = bbob_f006_i07_d20__bbob_f015_i08_d20
+% instance = 3, reference value = 9.825015710194760e-01
+% function evaluation | indicator value | target hit
+1	7.208416855305340e-01	7.244359600749900e-01
+5101	7.208416855305340e-01	7.244359600749900e-01
+%
+% index = 3648, name = bbob_f006_i09_d20__bbob_f015_i10_d20
+% instance = 4, reference value = 9.504598419110810e-01
+% function evaluation | indicator value | target hit
+1	7.047706689636988e-01	7.079457843841379e-01
+5101	7.047706689636988e-01	7.079457843841379e-01
+%
+% index = 3649, name = bbob_f006_i11_d20__bbob_f015_i12_d20
+% instance = 5, reference value = 9.274320421636790e-01
+% function evaluation | indicator value | target hit
+1	7.262381840192086e-01	7.413102413009175e-01
+5101	7.262381840192086e-01	7.413102413009175e-01
+%
+% index = 3650, name = bbob_f006_i13_d20__bbob_f015_i14_d20
+% instance = 6, reference value = 9.694289107582380e-01
+% function evaluation | indicator value | target hit
+1	6.484350407081162e-01	6.606934480075960e-01
+5101	6.484350407081162e-01	6.606934480075960e-01
+%
+% index = 3651, name = bbob_f006_i15_d20__bbob_f015_i16_d20
+% instance = 7, reference value = 9.374784024730530e-01
+% function evaluation | indicator value | target hit
+1	8.954244631565323e-01	9.120108393559098e-01
+5101	8.954244631565323e-01	9.120108393559098e-01
+%
+% index = 3652, name = bbob_f006_i17_d20__bbob_f015_i18_d20
+% instance = 8, reference value = 9.109059684709370e-01
+% function evaluation | indicator value | target hit
+1	1.017679144344437e+00	1.023292992280754e+00
+5101	1.017679144344437e+00	1.023292992280754e+00
+%
+% index = 3653, name = bbob_f006_i19_d20__bbob_f015_i21_d20
+% instance = 9, reference value = 9.426106742561809e-01
+% function evaluation | indicator value | target hit
+1	6.499446614155867e-01	6.606934480075960e-01
+5101	6.499446614155867e-01	6.606934480075960e-01
+%
+% index = 3654, name = bbob_f006_i21_d20__bbob_f015_i22_d20
+% instance = 10, reference value = 9.581921623682860e-01
+% function evaluation | indicator value | target hit
+1	8.197758960435402e-01	8.317637711026710e-01
+5101	8.197758960435402e-01	8.317637711026710e-01
+%
+% index = 3655, name = bbob_f006_i23_d20__bbob_f015_i24_d20
+% instance = 11, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	9.864688128094016e-01	1.000000000000000e+00
+5101	9.864688128094016e-01	1.000000000000000e+00
+%
+% index = 3656, name = bbob_f006_i25_d20__bbob_f015_i26_d20
+% instance = 12, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	9.930188628945222e-01	1.000000000000000e+00
+5101	9.930188628945222e-01	1.000000000000000e+00
+%
+% index = 3657, name = bbob_f006_i27_d20__bbob_f015_i28_d20
+% instance = 13, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	6.507764463150866e-01	6.606934480075960e-01
+3663	6.348452594411395e-01	6.456542290346555e-01
+5101	6.348452594411395e-01	6.456542290346555e-01
+%
+% index = 3658, name = bbob_f006_i29_d20__bbob_f015_i30_d20
+% instance = 14, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	9.293126636890739e-01	9.332543007969910e-01
+5101	9.293126636890739e-01	9.332543007969910e-01
+%
+% index = 3659, name = bbob_f006_i31_d20__bbob_f015_i34_d20
+% instance = 15, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	8.340559364380052e-01	8.511380382023764e-01
+5101	8.340559364380052e-01	8.511380382023764e-01

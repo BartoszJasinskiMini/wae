@@ -1,0 +1,90 @@
+%
+% index = 4755, name = bbob_f014_i02_d40__bbob_f017_i04_d40
+% instance = 1, reference value = 9.838572982839520e-01
+% function evaluation | indicator value | target hit
+1	4.588401738210313e-01	4.677351412871982e-01
+5101	4.588401738210313e-01	4.677351412871982e-01
+%
+% index = 4756, name = bbob_f014_i03_d40__bbob_f017_i05_d40
+% instance = 2, reference value = 9.755975567624950e-01
+% function evaluation | indicator value | target hit
+1	6.214279302706393e-01	6.309573444801932e-01
+5101	6.214279302706393e-01	6.309573444801932e-01
+%
+% index = 4757, name = bbob_f014_i07_d40__bbob_f017_i08_d40
+% instance = 3, reference value = 9.441804404283600e-01
+% function evaluation | indicator value | target hit
+1	7.205648191308748e-01	7.244359600749900e-01
+5101	7.205648191308748e-01	7.244359600749900e-01
+%
+% index = 4758, name = bbob_f014_i09_d40__bbob_f017_i10_d40
+% instance = 4, reference value = 9.669467561021610e-01
+% function evaluation | indicator value | target hit
+1	6.029490939891671e-01	6.165950018614822e-01
+5101	6.029490939891671e-01	6.165950018614822e-01
+%
+% index = 4759, name = bbob_f014_i11_d40__bbob_f017_i12_d40
+% instance = 5, reference value = 9.660706217051960e-01
+% function evaluation | indicator value | target hit
+1	5.817372963928426e-01	5.888436553555889e-01
+5101	5.817372963928426e-01	5.888436553555889e-01
+%
+% index = 4760, name = bbob_f014_i13_d40__bbob_f017_i14_d40
+% instance = 6, reference value = 9.183206678451270e-01
+% function evaluation | indicator value | target hit
+1	6.940335798698867e-01	7.079457843841379e-01
+5101	6.940335798698867e-01	7.079457843841379e-01
+%
+% index = 4761, name = bbob_f014_i15_d40__bbob_f017_i16_d40
+% instance = 7, reference value = 9.508433735217100e-01
+% function evaluation | indicator value | target hit
+1	8.563417076072699e-01	8.709635899560807e-01
+5101	8.563417076072699e-01	8.709635899560807e-01
+%
+% index = 4762, name = bbob_f014_i17_d40__bbob_f017_i18_d40
+% instance = 8, reference value = 9.573066682047600e-01
+% function evaluation | indicator value | target hit
+1	4.626605389530974e-01	4.677351412871982e-01
+5101	4.626605389530974e-01	4.677351412871982e-01
+%
+% index = 4763, name = bbob_f014_i19_d40__bbob_f017_i21_d40
+% instance = 9, reference value = 8.557017290069630e-01
+% function evaluation | indicator value | target hit
+1	1.005240110262463e+00	1.023292992280754e+00
+5101	1.005240110262463e+00	1.023292992280754e+00
+%
+% index = 4764, name = bbob_f014_i21_d40__bbob_f017_i22_d40
+% instance = 10, reference value = 9.665050958650040e-01
+% function evaluation | indicator value | target hit
+1	6.091164520429645e-01	6.165950018614822e-01
+5101	6.091164520429645e-01	6.165950018614822e-01
+%
+% index = 4765, name = bbob_f014_i23_d40__bbob_f017_i24_d40
+% instance = 11, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	8.298107275053286e-01	8.317637711026710e-01
+5101	8.298107275053286e-01	8.317637711026710e-01
+%
+% index = 4766, name = bbob_f014_i25_d40__bbob_f017_i26_d40
+% instance = 12, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	5.745335567109178e-01	5.754399373371569e-01
+5101	5.745335567109178e-01	5.754399373371569e-01
+%
+% index = 4767, name = bbob_f014_i27_d40__bbob_f017_i28_d40
+% instance = 13, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	8.366843276611419e-01	8.511380382023764e-01
+5101	8.366843276611419e-01	8.511380382023764e-01
+%
+% index = 4768, name = bbob_f014_i29_d40__bbob_f017_i30_d40
+% instance = 14, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	1.182032842411500e+00	1.202264434617413e+00
+5101	1.182032842411500e+00	1.202264434617413e+00
+%
+% index = 4769, name = bbob_f014_i31_d40__bbob_f017_i34_d40
+% instance = 15, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	5.179718904632640e-01	5.248074602497725e-01
+5101	5.179718904632640e-01	5.248074602497725e-01

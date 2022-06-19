@@ -1,0 +1,90 @@
+%
+% index = 4110, name = bbob_f021_i02_d20__bbob_f021_i04_d20
+% instance = 1, reference value = 6.255114506838190e-01
+% function evaluation | indicator value | target hit
+1	6.207851058462286e-01	6.309573444801932e-01
+5101	6.207851058462286e-01	6.309573444801932e-01
+%
+% index = 4111, name = bbob_f021_i03_d20__bbob_f021_i05_d20
+% instance = 2, reference value = 7.393709426730840e-01
+% function evaluation | indicator value | target hit
+1	7.305711195744541e-01	7.413102413009175e-01
+5101	7.305711195744541e-01	7.413102413009175e-01
+%
+% index = 4112, name = bbob_f021_i07_d20__bbob_f021_i08_d20
+% instance = 3, reference value = 6.690961570825120e-01
+% function evaluation | indicator value | target hit
+1	6.636196027538055e-01	6.760829753919817e-01
+5101	6.636196027538055e-01	6.760829753919817e-01
+%
+% index = 4113, name = bbob_f021_i09_d20__bbob_f021_i10_d20
+% instance = 4, reference value = 6.734686439889030e-01
+% function evaluation | indicator value | target hit
+1	6.709347543651264e-01	6.760829753919817e-01
+5101	6.709347543651264e-01	6.760829753919817e-01
+%
+% index = 4114, name = bbob_f021_i11_d20__bbob_f021_i12_d20
+% instance = 5, reference value = 8.311370464893230e-01
+% function evaluation | indicator value | target hit
+1	8.254470336921124e-01	8.317637711026710e-01
+5101	8.254470336921124e-01	8.317637711026710e-01
+%
+% index = 4115, name = bbob_f021_i13_d20__bbob_f021_i14_d20
+% instance = 6, reference value = 7.881225508625690e-01
+% function evaluation | indicator value | target hit
+1	7.855161887254142e-01	7.943282347242815e-01
+5101	7.855161887254142e-01	7.943282347242815e-01
+%
+% index = 4116, name = bbob_f021_i15_d20__bbob_f021_i16_d20
+% instance = 7, reference value = 7.373114369881150e-01
+% function evaluation | indicator value | target hit
+1	8.133229561231149e-01	8.317637711026710e-01
+5101	8.133229561231149e-01	8.317637711026710e-01
+%
+% index = 4117, name = bbob_f021_i17_d20__bbob_f021_i18_d20
+% instance = 8, reference value = 6.964972985361610e-01
+% function evaluation | indicator value | target hit
+1	6.893159834305859e-01	6.918309709189365e-01
+5101	6.893159834305859e-01	6.918309709189365e-01
+%
+% index = 4118, name = bbob_f021_i19_d20__bbob_f021_i21_d20
+% instance = 9, reference value = 7.827957935221960e-01
+% function evaluation | indicator value | target hit
+1	7.824396620350313e-01	7.943282347242815e-01
+5101	7.824396620350313e-01	7.943282347242815e-01
+%
+% index = 4119, name = bbob_f021_i21_d20__bbob_f021_i22_d20
+% instance = 10, reference value = 7.539361836393650e-01
+% function evaluation | indicator value | target hit
+1	7.352098633536222e-01	7.413102413009175e-01
+5101	7.352098633536222e-01	7.413102413009175e-01
+%
+% index = 4120, name = bbob_f021_i23_d20__bbob_f021_i24_d20
+% instance = 11, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	9.940528201445127e-01	1.000000000000000e+00
+5101	9.940528201445127e-01	1.000000000000000e+00
+%
+% index = 4121, name = bbob_f021_i25_d20__bbob_f021_i26_d20
+% instance = 12, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	9.957845615088974e-01	1.000000000000000e+00
+5101	9.957845615088974e-01	1.000000000000000e+00
+%
+% index = 4122, name = bbob_f021_i27_d20__bbob_f021_i28_d20
+% instance = 13, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	9.941415158010225e-01	1.000000000000000e+00
+5101	9.941415158010225e-01	1.000000000000000e+00
+%
+% index = 4123, name = bbob_f021_i29_d20__bbob_f021_i30_d20
+% instance = 14, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	9.937272473324241e-01	1.000000000000000e+00
+5101	9.937272473324241e-01	1.000000000000000e+00
+%
+% index = 4124, name = bbob_f021_i31_d20__bbob_f021_i34_d20
+% instance = 15, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	9.962632599954500e-01	1.000000000000000e+00
+5101	9.962632599954500e-01	1.000000000000000e+00

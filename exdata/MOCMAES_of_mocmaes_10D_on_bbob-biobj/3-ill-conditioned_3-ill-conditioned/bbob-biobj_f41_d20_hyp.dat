@@ -1,0 +1,91 @@
+%
+% index = 3900, name = bbob_f014_i02_d20__bbob_f014_i04_d20
+% instance = 1, reference value = 9.715285643010380e-01
+% function evaluation | indicator value | target hit
+1	4.160179195478314e-01	4.168693834703354e-01
+5101	4.160179195478314e-01	4.168693834703354e-01
+%
+% index = 3901, name = bbob_f014_i03_d20__bbob_f014_i05_d20
+% instance = 2, reference value = 9.816094079373390e-01
+% function evaluation | indicator value | target hit
+1	2.276538739943726e-01	2.290867652767773e-01
+5101	2.276538739943726e-01	2.290867652767773e-01
+%
+% index = 3902, name = bbob_f014_i07_d20__bbob_f014_i08_d20
+% instance = 3, reference value = 9.410226119131631e-01
+% function evaluation | indicator value | target hit
+1	7.722188063081262e-01	7.762471166286917e-01
+5101	7.722188063081262e-01	7.762471166286917e-01
+%
+% index = 3903, name = bbob_f014_i09_d20__bbob_f014_i10_d20
+% instance = 4, reference value = 9.130715838409370e-01
+% function evaluation | indicator value | target hit
+1	1.308714808383937e+00	1.318256738556407e+00
+5101	1.308714808383937e+00	1.318256738556407e+00
+%
+% index = 3904, name = bbob_f014_i11_d20__bbob_f014_i12_d20
+% instance = 5, reference value = 9.245642903907551e-01
+% function evaluation | indicator value | target hit
+1	8.651829111618100e-01	8.709635899560807e-01
+5101	8.651829111618100e-01	8.709635899560807e-01
+%
+% index = 3905, name = bbob_f014_i13_d20__bbob_f014_i14_d20
+% instance = 6, reference value = 9.637777589840290e-01
+% function evaluation | indicator value | target hit
+1	5.359463126866862e-01	5.370317963702527e-01
+5101	5.359463126866862e-01	5.370317963702527e-01
+%
+% index = 3906, name = bbob_f014_i15_d20__bbob_f014_i16_d20
+% instance = 7, reference value = 9.014243616294730e-01
+% function evaluation | indicator value | target hit
+1	5.146806104757359e-01	5.248074602497725e-01
+5101	5.146806104757359e-01	5.248074602497725e-01
+%
+% index = 3907, name = bbob_f014_i17_d20__bbob_f014_i18_d20
+% instance = 8, reference value = 9.586070829147511e-01
+% function evaluation | indicator value | target hit
+1	1.040440210643751e+00	1.047128548050900e+00
+5101	1.040440210643751e+00	1.047128548050900e+00
+%
+% index = 3908, name = bbob_f014_i19_d20__bbob_f014_i21_d20
+% instance = 9, reference value = 9.802498901511250e-01
+% function evaluation | indicator value | target hit
+1	5.970329683343906e-01	6.025595860743578e-01
+4816	5.828336430820833e-01	5.888436553555889e-01
+5101	5.828336430820833e-01	5.888436553555889e-01
+%
+% index = 3909, name = bbob_f014_i21_d20__bbob_f014_i22_d20
+% instance = 10, reference value = 9.760352376470000e-01
+% function evaluation | indicator value | target hit
+1	4.304721429920370e-01	4.365158322401660e-01
+5101	4.304721429920370e-01	4.365158322401660e-01
+%
+% index = 3910, name = bbob_f014_i23_d20__bbob_f014_i24_d20
+% instance = 11, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	5.037084895733250e-01	5.128613839913648e-01
+5101	5.037084895733250e-01	5.128613839913648e-01
+%
+% index = 3911, name = bbob_f014_i25_d20__bbob_f014_i26_d20
+% instance = 12, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	6.940107059972400e-01	7.079457843841379e-01
+5101	6.940107059972400e-01	7.079457843841379e-01
+%
+% index = 3912, name = bbob_f014_i27_d20__bbob_f014_i28_d20
+% instance = 13, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	5.535268482886533e-01	5.623413251903491e-01
+5101	5.535268482886533e-01	5.623413251903491e-01
+%
+% index = 3913, name = bbob_f014_i29_d20__bbob_f014_i30_d20
+% instance = 14, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	5.933787355731830e-01	6.025595860743578e-01
+5101	5.933787355731830e-01	6.025595860743578e-01
+%
+% index = 3914, name = bbob_f014_i31_d20__bbob_f014_i34_d20
+% instance = 15, reference value = 1.000000000000000e+00
+% function evaluation | indicator value | target hit
+1	5.014315023656839e-01	5.128613839913648e-01
+5101	5.014315023656839e-01	5.128613839913648e-01
