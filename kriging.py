@@ -29,7 +29,6 @@ class kriging():
         n = np.size(X,0)
         one = np.ones((n,1))
 
-        # build correlation matrix
         R = np.zeros((n, n))
         for i in range(n):
             for j in range(i+1, n):
@@ -37,7 +36,6 @@ class kriging():
 
         R = R + R.T + np.eye(n) + np.eye(n)*np.finfo(np.float32).eps
 
-        # upper triangular matrix
         U = cholesky(R)
 
         LnDetPsi = 2 * sum(np.log(abs(np.diag(U))));

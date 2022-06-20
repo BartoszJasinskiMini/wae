@@ -1,30 +1,25 @@
 import numpy as np
 from pyDOE import lhs
-
+import matplotlib.pyplot as plt
 from EGO import EGO
 from kriging import kriging
 from true_function import true_function
 from ga import ga
-# from exp_imp import EGO
+
 
 k = 2
 n = 5*2
 
-# sampling plan
 X = lhs(k, samples=n)
 y = np.zeros((n, 1))
 
-# find true values
 for i in range(k):
     y[i] = true_function(X[i], 1)
 
-# create kriging model
 kr = kriging(k, X, y)
 
-# train model
 kr.train()
 
-# plot prediction
 kr.plot_2d()
 
 E = EGO(kr)
